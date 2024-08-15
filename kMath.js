@@ -1,4 +1,4 @@
-const kdMath = {
+const kMath = {
   slope: function(x1, y1, x2, y2) {
     if (x1 === x2) {
       throw new Error("The x-values must be different to calculate the slope.");
@@ -7,4 +7,4 @@ const kdMath = {
   }
 };
 
-module.exports = kdMath;
+module.exports = kMath;
